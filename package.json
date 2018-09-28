@@ -2,10 +2,6 @@
   "name": "ddts",
   "version": "0.3.0",
   "main": "tslint.json",
-  "scripts": {
-    "postinstall": "npm run compilerules; ./install-hooks",
-    "compilerules": "$(git rev-parse --show-toplevel)/node_modules/.bin/tsc ./rules/*.ts || true"
-  },
   "description": "A typescript style guide with teeth",
   "author": "Connor Harwood <charwood@dronedeploy.com>",
   "license": "MIT",
